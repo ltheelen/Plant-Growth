@@ -1,0 +1,62 @@
+Een geavanceerd plantengroeivolgsysteem
+
+Planten groeien als ze voldoende licht, water en voedingsmiddelen krijgen en de temperatuur zich binnen bepaalde grenzen bevindt. Dan kan de "stofwisseling", fotosynthese, plaatsvinden. 
+De groei verloopt traag, bij bomen komt die grofweg overeen met de levensloop van de mens. Daarbij komt dat veel plantensoorten in de gematigde zones in de herfst hun bladeren verliezen en de stofwisseling zo goed als stil staat. 
+Indien de uitwendige omstandigheden goed zijn dan kan een eikel in 50 jaar uitgroeien tot een hoge, grote boom. Maar indien de groei beperkt worden, bijvoorbeeld door een plantenpot, dan zou dezelfde eikel een veel kleinere, gedrongener boom opleveren in diezelfde periode. 
+Het zaad, zoals de eikel, bevat het embryo van de latere plant. Als de eikel op de grond valt zal na de winter het embryo groeien met een wortel en een stam. Klaarblijkelijk kan het zaad door de temperatuur, het temperatuurverloop en de duur en intensiteit van het licht - meer precies de straling - bepalen wanneer het tijd is om te ontkiemen. Daarvoor zal wel vocht aanwezig moeten zijn.
+In de eerste jaren vinden er dus grote veranderingen plaats bij planten, net als bij de mensenbaby. De latere groei is vooral in de grootte van de plant en de productie van bloemen en daarna dus zaden. 
+Het vormen van bloemen vergt veel energie die al eerder door de stofwisseling is opgeslagen, bijvoorbeeld in de ondergrondse wortels. 
+
+Plantenindeling, inzonderheid de zaadplanten
+De bloemdragende planten vormen de Magnoliophyta, hun aantal wordt geschat op 258650 soorten. De cycads, Cycadophyta bestaat uit 160 soorten; de Ginkgo, Ginkgophyte uit één enkele soort; de coniferen, Pinophyta uit 630 soorten en de gnetophyten, Gnetophyte, uit 24 soorten. 
+Zie voor een algemeen artikel over planten: https://nl.wikipedia.org/wiki/Planten 
+Daaruit nogmaals de indeling van de zaadplanten:
+clade Spermatophyta=Zaadplanten; Spermatopsida=Phanerogamae 
+  † Stam Pteridospermophyta=Zaadvarens
+  Stam Cycadophyta=Palmvarens
+  † Stam Cycadeoidophyta
+  Stam Ginkgophyta
+  Stam Coniferophyta=Coniferen, Naaldbomen, Coniferae, Coniferales
+  Stam Gnetophyta (met Gnetum, Ephedra en Welwitschia)
+  Stam Angiospermophyta=Bedektzadigen of Anthophyta=Bloemplanten; inwendig 
+     zaaddragende planten met bloemen) 
+     clade Eenzaadlobbigen
+     clade 'Nieuwe' tweezaadlobbigen
+
+Zaadontkieming
+Het ontkiemen van zaden is niet betrouwbaar te voorspellen; het percentage van ontkiemen kan per plantensoort erg verschillen. Een afdoende verklaring heb ik nog niet gelezen.
+Feit is dat er water nodig is en verhoogde temperaturen het ontkiemen lijken te 
+bespoedigen, maar het percentage ontkieming blijft onvoorspelbaar hoewel de embryo's gezond lijken. Als meerdere gelijksoortige zaden in één pot geplaatst worden dan zal een deel wél, en een ander deel niet ontkiemen in het eerste seizoen.
+Het lijkt erop dat doorstroming van lucht ook een voorwaarde is voor ontkieming; volledige insluiting van samengedrukte grond zal de ontkieming nadelig beïnvloeden.
+Zie voor kiemkracht https://nl.wikipedia.org/wiki/Kiemkracht 
+
+Koolstofkringloop
+Op https://nl.wikipedia.org/wiki/Koolstofkringloop zien we hoe koolstofdioxide (CO2) wordt vastgelegd in planten in de vorm van koolhydraten. Voor onze zaak is duidelijk een meetinstrument nodig dat het CO2-gehalte kan meten, vrij in de buitenlucht en vlak bij de bladeren van de planten.
+
+Meetinstrumenten m.b.t. plantengroei
+Uit het voorgaande is het duidelijk dat voor metingen aan planten verschillende meetinstrumenten nodig zijn, zoals thermometers van lucht en bodem, lichtmeters tussen de bladeren, net als CO2-meters. De vochtigheid van de grond moet ook worden gemeten, zodat bij een te droge bodem water gegeven kan worden.
+De opzet van een plantengroeimeetsysteem 
+Door de auteur wordt en is een uitgebreid elektronisch en mechanisch systeem gebouwd dat metingen kan verrichten aan individuele planten of plantengroepen die dicht bij elkaar staan.
+Indien we meerdere planten van verschillende soorten bij elkaar zetten vormen ze een groep. De gemeten temperatuur, het licht en andere variabelen in deze groep zijn de basis van de groei van de planten.
+Zo kunnen we met een beperkt aantal groepen vele honderden planten gelijktijdig volgen in de groei. Stel dat er 10 groepen zijn; van deze worden in een aantal periodes van gelijke lengte de "variabelen" gemeten. Van elke groep zullen temperatuur van de lucht en bodem, het licht, CO2-gehalte, vochtigheid van de bodem, e.d. gemeten worden.
+De periodes van gelijke lengte zullen redelijk lang zijn: als we een dag indelen in 100 partjes dan duurt zo'n periode 864 s, ongeveer een kwartier. 
+Het aantal meetwaarden is dan 100 x aantal variabelen. Deze meetwaarden worden opgeslagen en kunnen desgewenst als een grafiek zichtbaar worden gemaakt.
+
+Kleurcodering van de plantengroepen
+Om de planten en/of plantengroepen te kunnen onderscheiden worden ze gecodeerd d.m.v. een combinatie van vier kleuren: rood, groen, blauw, geel of oranje, wit, zwart.
+
+Het aspect tijd bij de gegevensverwerking
+Planten groeien zeer langzaam en een volgsysteem zal dan ook zeer lang - zeg maanden - actief moeten zijn. De apparatuur moet dus onafgebroken door kunnen werken, en verstoringen door bijvoorbeeld stroomuitval moeten of worden ondervangen door een vervangende voeding of moeten achteraf bij benadering worden teruggerekend.
+Het Data Acquisitie Systeem, hier de Rigol M300, neemt alle meetwaarden in en kan die opslaan. Een computer die de M300 en andere instrumenten kan besturen neemt de meetwaarden over en kan vooraf bepaalde bewerkingen uitvoeren. Hiervoor is een verbinding nodig tussen de meetapparatuur en de computer. Commando's door de computer uitgeschreven worden door de meetinstrumenten uitgevoerd; resulterende meetgegevens worden met commando's door de computer ingelezen.
+De verwerkingstijd is in dit geval geen beperkende factor, want als bijvoorbeeld één dag in 1000 delen opgedeeld wordt dan moet de verwerking binnen circa 80 s zijn afgerond. Maar dit moet dus wel maanden achter elkaar doorlopen! Nieuwe meetresultaten worden direct verwerkt en met datum en tijd, kanaalnummer, e.d. naar een permanent geheugen geschreven. Gegevens die gesommeerd moeten worden, zoals de temperatuur, worden direct verwerkt. Uiteindelijk krijgen we per meetkanaal over de volledige meetperiode een meetwaarde, waarmee we verder kunnen werken voor theoretische verklaringen.
+
+Inleidende gegevens m.b.t. de automatisering van het Plantengroeivolgsysteem
+De inname van meetgegevens van de verschillende sensoren en de uitgifte van signalen voor het in- en uitschakelen van diverse instrumenten vindt centraal plaats in het M300 Data Acquisitie Systeem. In de M300 kunnen ook enige "beslissingen" genomen worden, maar deze blijven zeer elementair. Een computer die verbonden is met de M300 via een LAN- of USB-connector kan de gehele afloop van de plantengroei-experimenten besturen.
+Omdat de experimenten zeer langdurig zijn, moeten eventuele verstoringen, bijvoorbeeld uitval van de stroomvoorziening, zeer snel worden verholpen. Een UPS, uninterruptable power system, is dan ook nodig.
+Grofweg moet een zeer langlopend computerprogramma het volgende doen:
+- controle van de goede werking van de aangesloten instrumenten en sensoren; deze controle zal wellicht regelmatig moeten worden uitgevoerd;
+- een tijdlijst opzetten wanneer bepaalde metingen moeten worden uitgevoerd; hierbij moet rekening gehouden met verstoringen als schrikkeljaar, zomer- en wintertijd. Voor de overzichtelijkheid wordt de dag opgedeeld in 100 of 1000 delen. Hiermee kunnen periodes gemakkelijk verrekend worden.
+- het opzetten van een foutencorrectie bij fouten en verstoringen;
+- een overzicht opzetten van de experimenten met de opgave van de gebruikte sensoren en apparaten. Er kunnen veel experimenten gelijktijdig worden uitgevoerd: voor elk experiment wordt een bestand aangemaakt;
+- het opzetten van een bestandssysteem waarin de meetgegevens worden opgenomen. Tevens de voorbereiding van een grafisch systeem waarin de experimenten kunnen worden weergegeven;
+- terwijl het programma loopt moeten variaties kunnen worden aangebracht, bijvoorbeeld een experiment stoppen en de meetgegevens provisorisch verwerken en wellicht de sensoren op een andere plaats gebruiken;
