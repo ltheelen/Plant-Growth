@@ -1,6 +1,6 @@
 Een geavanceerd plantengroeivolgsysteem [Introduction to a "Plant growth measuring system"]
 
-Planten groeien als ze voldoende licht, water en voedingsmiddelen krijgen en de temperatuur zich binnen bepaalde grenzen bevindt. Dan kan de "stofwisseling", fotosynthese, plaatsvinden. 
+Planten groeien als ze voldoende licht, water en voedingsmiddelen krijgen en de temperatuur zich binnen bepaalde grenzen bevindt. Dan kan de "stofwisseling", fotosynthese (zie https://nl.wikipedia.org/wiki/Fotosynthese, [https://en.wikipedia.org/wiki/Photosynthesis]), plaatsvinden. 
 De groei verloopt traag, bij bomen komt die grofweg overeen met de levensloop van de mens. Daarbij komt dat veel plantensoorten in de gematigde zones in de herfst hun bladeren verliezen en de stofwisseling zo goed als stil staat. 
 Indien de uitwendige omstandigheden goed zijn dan kan een eikel in 50 jaar uitgroeien tot een hoge, grote boom. Maar indien de groei beperkt worden, bijvoorbeeld door een plantenpot, dan zou dezelfde eikel een veel kleinere, gedrongener boom opleveren in diezelfde periode. 
 Het zaad, zoals de eikel, bevat het embryo van de latere plant. Als de eikel op de grond valt zal na de winter het embryo groeien met een wortel en een stam. Klaarblijkelijk kan het zaad door de temperatuur, het temperatuurverloop en de duur en intensiteit van het licht - meer precies de straling - bepalen wanneer het tijd is om te ontkiemen. Daarvoor zal wel vocht aanwezig moeten zijn.
@@ -25,13 +25,12 @@ clade Spermatophyta=Zaadplanten; Spermatopsida=Phanerogamae
 
 Zaadontkieming
 Het ontkiemen van zaden is niet betrouwbaar te voorspellen; het percentage van ontkiemen kan per plantensoort erg verschillen. Een afdoende verklaring heb ik nog niet gelezen.
-Feit is dat er water nodig is en verhoogde temperaturen het ontkiemen lijken te 
-bespoedigen, maar het percentage ontkieming blijft onvoorspelbaar hoewel de embryo's gezond lijken. Als meerdere gelijksoortige zaden in één pot geplaatst worden dan zal een deel wél, en een ander deel niet ontkiemen in het eerste seizoen.
+Feit is dat er water nodig is en verhoogde temperaturen het ontkiemen lijken te bespoedigen, maar het percentage ontkieming blijft onvoorspelbaar hoewel de embryo's gezond lijken. Als meerdere gelijksoortige zaden in één pot geplaatst worden dan zal een deel wél, en een ander deel niet ontkiemen in het eerste seizoen.
 Het lijkt erop dat doorstroming van lucht ook een voorwaarde is voor ontkieming; volledige insluiting van samengedrukte grond zal de ontkieming nadelig beïnvloeden.
 Zie voor kiemkracht https://nl.wikipedia.org/wiki/Kiemkracht 
 
 Koolstofkringloop
-Op https://nl.wikipedia.org/wiki/Koolstofkringloop zien we hoe koolstofdioxide (CO2) wordt vastgelegd in planten in de vorm van koolhydraten. Voor onze zaak is duidelijk een meetinstrument nodig dat het CO2-gehalte kan meten, vrij in de buitenlucht en vlak bij de bladeren van de planten.
+Op https://nl.wikipedia.org/wiki/Koolstofkringloop [https://en.wikipedia.org/wiki/Carbon_cycle] zien we hoe koolstofdioxide (CO2) wordt vastgelegd in planten in de vorm van koolhydraten. Voor onze zaak is duidelijk een meetinstrument nodig dat het CO2-gehalte kan meten, vrij in de buitenlucht en vlak bij de bladeren van de planten.
 
 Meetinstrumenten m.b.t. plantengroei
 Uit het voorgaande is het duidelijk dat voor metingen aan planten verschillende meetinstrumenten nodig zijn, zoals thermometers van lucht en bodem, lichtmeters tussen de bladeren, net als CO2-meters. De vochtigheid van de grond moet ook worden gemeten, zodat bij een te droge bodem water gegeven kan worden.
